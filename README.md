@@ -5,7 +5,7 @@ Für Slides und Code Beispiele, siehe [Lektion 0](../../../fhnw-syspr/blob/maste
 ### Hands-on, 1h: Raspberry Pi
 * Raspberry Pi Setup via USB zum eigenen Computer.
 * "Hello World" in C in Hands-on Repository speichern.
-* Den C Source Code mit gcc kompilieren.
+* Den C Source Code mit gcc kompilieren.<br/>
     $ gcc -o hello hello.c
     $ ./hello
 * Fertig? Bitte Nachbarn helfen.
