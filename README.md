@@ -16,5 +16,11 @@ Auf dem Raspberry Pi
 * git commit FILE -m "Fixed all bugs"
 * git push
 
+## Nano
+Auf dem Raspberry Pi
+* nano FILE
+* Editieren
+* Speichern mit `CRTL-X` `Y` `RETURN`
+
 ## Support
 - [FHNW Syspr Slack](https://fhnw-syspr.slack.com/)
