@@ -24,7 +24,7 @@ Die einzelnen Schritte sind in den Slides
 * Lokale Änderungen [committen und pushen](#git).
 * GitHub [Issue erstellen](../../issues/new) mit "Bitte um Review, @tamberg".
 * Offene Fragen ausformulieren, was geht nicht, was haben Sie versucht.
-* GitHub mailt mir (@tamberg) automatisch, ich versuche in weniger als 24h zu antworten:)
+* GitHub mailt mir (@tamberg) automatisch, ich versuche in weniger als 24h zu antworten :)
 
 ## Tools
 ### Git
