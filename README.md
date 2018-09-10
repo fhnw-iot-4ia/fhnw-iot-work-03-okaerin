@@ -16,4 +16,4 @@ Auf dem Raspberry Pi
 * git push
 
 ## Support
-- [Slack](https://fhnw-syspr.slack.com/)
+- [FHNW Syspr Slack](https://fhnw-syspr.slack.com/)
