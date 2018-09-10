@@ -14,7 +14,7 @@ Hands-on zu [Lektion 0](https://github.com/tamberg/fhnw-syspr/blob/master/00/REA
 * GitHub Account einrichten, falls keiner vorhanden.
 * Git auf Raspberry Pi installieren und konfigurieren.
 * https://github.com/tamberg/fhnw-syspr [klonen](#git).
-* Daneben, [Übungs-Repository](#git) aus Mail klonen.
+* Daneben, [Übungs-Repository aus Mail klonen](#git).
 * Code in Übungs-Repo committen, pushen.
 * Keine Mail bekommen? Bitte melden.
 
