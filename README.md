@@ -3,7 +3,7 @@
 Für Slides und Code Beispiele, siehe [Lektion 0](../../../fhnw-syspr/blob/master/00/README.md)
 
 > *Achtung: Arbeiten Sie nicht direkt auf diesem Repository.*<br/>
-> *[Schauen Sie unter Forks, um das Repository für Ihre Klasse zu finden.](https://github.com/tamberg/fhnw-syspr-work-00/network/members)*
+> *[Prüfen Sie die vorhandenen Forks, um das Repository für Ihre Klasse zu finden.](../../network/members)*
 
 ### a) Raspberry Pi Setup, 1h
 Die einzelnen Schritte sind in den Slides
