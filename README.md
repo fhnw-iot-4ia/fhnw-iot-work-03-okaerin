@@ -18,7 +18,7 @@ Auf dem Raspberry Pi
 
 ## Nano
 Auf dem Raspberry Pi
-* Neue oder bestehende Datei öffnen mit<br/>$ nano FILE
+* Neue oder bestehende Datei öffnen mit $ nano FILE
 * Editieren
 * Speichern mit `CRTL-X` `Y` `RETURN`
 
