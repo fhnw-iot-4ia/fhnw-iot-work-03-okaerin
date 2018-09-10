@@ -24,8 +24,8 @@ Auf dem Raspberry Pi
 
 ## SSH
 Auf Ihrem Computer
-* $ ssh raspberrypi.local
-* oder IP suchen mit<br/>$ dns-sd -G v4 raspberrypi.local
+* $ ssh pi@raspberrypi.local
+* Oder RASPI_IP suchen mit<br/>$ dns-sd -G v4 raspberrypi.local<br/>Und dann $ ssh pi@RASPI_IP
 
 ## Support
 - [FHNW Syspr Slack](https://fhnw-syspr.slack.com/)
