@@ -13,7 +13,7 @@ Für Slides und Code Beispiele, siehe [Lektion 0](https://github.com/tamberg/fhn
 ### Hands-on, 1h: GitHub
 * GitHub Account einrichten, falls keiner vorhanden.
 * Git auf Raspberry Pi installieren und konfigurieren.
-* https://github.com/tamberg/fhnw-syspr [klonen](#git).
+* https://github.com/tamberg/fhnw-syspr klonen.
 * Daneben, [Übungs-Repository aus Mail klonen](#git).
 * Code in Übungs-Repo committen, pushen.
 * Keine Mail bekommen? Bitte melden.
