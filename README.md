@@ -2,7 +2,7 @@
 ## Hands-on zu Lektion 0
 Für Slides und Code Beispiele, siehe [Lektion 0](../../../fhnw-syspr/blob/master/00/README.md)
 
-### a) Hands-on, 1h: Raspberry Pi
+### a) 1h: Raspberry Pi
 Die einzelnen Schritte sind in den Slides
 * Raspberry Pi Setup via USB zum eigenen Computer.
 * "Hello World" in C in Hands-on Repository speichern.
@@ -11,7 +11,7 @@ Die einzelnen Schritte sind in den Slides
     $ ./hello</pre>
 * Fertig? Bitte Nachbarn helfen.
 
-### b) Hands-on, 1h: GitHub
+### b) 1h: GitHub
 Die einzelnen Schritte sind in den Slides
 * GitHub Account einrichten, falls keiner vorhanden.
 * Git auf Raspberry Pi installieren und konfigurieren.
