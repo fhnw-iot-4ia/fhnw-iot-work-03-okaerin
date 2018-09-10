@@ -21,7 +21,6 @@ Die einzelnen Schritte sind in den Slides
 * Keine Mail bekommen? Bitte melden.
 
 ## Abgabe (optional)
-### GitHub Issues
 * Lokale Änderungen [committen und pushen](#git).
 * GitHub [Issue erstellen](../../issues/new) mit "Bitte um Review, @tamberg".
 * Offene Fragen ausformulieren, was geht nicht, was haben Sie versucht.
