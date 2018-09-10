@@ -20,7 +20,8 @@ Die einzelnen Schritte sind in den Slides
 * Code in Übungs-Repo committen, pushen.
 * Keine Mail bekommen? Bitte melden.
 
-### Abgabe (optional)
+## Abgabe (optional)
+### GitHub Issues
 * Lokale Änderungen [committen und pushen](#git).
 * GitHub [Issue erstellen](../../issues/new) mit "Bitte um Review, @tamberg".
 * Offene Fragen ausformulieren, was geht nicht, was haben Sie versucht.
