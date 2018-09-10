@@ -2,6 +2,8 @@
 ## Hands-on zu Lektion 0
 Für Slides und Code Beispiele, siehe [Lektion 0](../../../fhnw-syspr/blob/master/00/README.md)
 
+Achtung: Arbeiten Sie nicht direkt auf diesem Repository.
+
 ### a) Raspberry Pi Setup, 1h
 Die einzelnen Schritte sind in den Slides
 * Raspberry Pi Setup via USB zum eigenen Computer.
@@ -29,7 +31,7 @@ Die einzelnen Schritte sind in den Slides
 ## Tools
 ### Git
 Auf Ihrem Computer
-* Zu Beginn jeder Lektion wird ein Hands-on Repository Link bekannt gegeben
+* Zu Beginn jeder Lektion wird ein Hands-on Repository Link freigeschaltet
 * Nachdem Sie das "Assessment" annehmen, bekommen Sie per Email ein Repository
 * Die REPO_URL enthält Ihren GitHub Account USER_NAME und Ihre Klasse 3ia oder 3ib, z.B.<br/>
             https://github.com/fhnw-syspr-3ia/fhnw-syspr-work-00-tamberg
