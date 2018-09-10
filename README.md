@@ -10,6 +10,7 @@ Auf Ihrem Computer
             https://github.com/fhnw-syspr-3ia/fhnw-syspr-work-00-tamberg
 
 Auf dem Raspberry Pi
+* cd ~
 * git clone REPO_URL
 * git add FILE
 * git commit FILE -m "Fixed all bugs"
