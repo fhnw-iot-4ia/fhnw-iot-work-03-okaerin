@@ -2,7 +2,7 @@
 ## Hands-on zu Lektion 0
 Für Slides und Code Beispiele, siehe [Lektion 0](../../../fhnw-syspr/blob/master/00/README.md)
 
-### Hands-on, 1h: Raspberry Pi
+### a) Hands-on, 1h: Raspberry Pi
 * Raspberry Pi Setup via USB zum eigenen Computer.
 * "Hello World" in C in Hands-on Repository speichern.
 * Den C Source Code mit gcc kompilieren.<pre>
@@ -10,7 +10,7 @@ Für Slides und Code Beispiele, siehe [Lektion 0](../../../fhnw-syspr/blob/maste
     $ ./hello</pre>
 * Fertig? Bitte Nachbarn helfen.
 
-### Hands-on, 1h: GitHub
+### b) Hands-on, 1h: GitHub
 * GitHub Account einrichten, falls keiner vorhanden.
 * Git auf Raspberry Pi installieren und konfigurieren.
 * https://github.com/tamberg/fhnw-syspr klonen.
