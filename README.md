@@ -1,6 +1,6 @@
 # System-Programmierung
 ## Hands-on Lektion 0
-Hands-on zu [Lektion 0](https://github.com/tamberg/fhnw-syspr/tree/master/00)
+Hands-on zu [Lektion 0](https://github.com/tamberg/fhnw-syspr/tree/master/00/REAME.md)
 
 ## Git
 Auf dem Raspberry Pi
