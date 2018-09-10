@@ -24,6 +24,7 @@ Auf dem Raspberry Pi
 
 ## SSH
 Auf Ihrem Computer
+* Terminal öffnen (Mac) oder `WINDOWS` `R` cmd `RETURN` (Win)
 * $ ssh pi@raspberrypi.local
 
 ## Support
