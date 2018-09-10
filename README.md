@@ -40,7 +40,7 @@ Auf dem Raspberry Pi
 ### Nano
 Auf dem Raspberry Pi
 * Neue oder bestehende Datei öffnen mit $ nano FILE
-* Editieren
+* Editieren (Achtung, nano hat kein Undo)
 * Speichern mit `CRTL-X` `Y` `RETURN`
 
 ### SSH
