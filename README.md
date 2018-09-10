@@ -1,6 +1,6 @@
 # System-Programmierung
 ## Hands-on zu Lektion 0
-Für Slides und Code Beispiele, siehe [Lektion 0](../../../../fhnw-syspr/blob/master/00/README.md)
+Für Slides und Code Beispiele, siehe [Lektion 0](../../../fhnw-syspr/blob/master/00/README.md)
 
 ### Hands-on, 1h: Raspberry Pi
 * Raspberry Pi Setup via USB zum eigenen Computer.
