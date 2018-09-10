@@ -22,7 +22,7 @@ Die einzelnen Schritte sind in den Slides
 
 ### Abgabe
 * Änderungen [committen und pushen](#git).
-* GitHub [Issue erstellen](issues/new) mit "Bitte um Review, @tamberg".
+* GitHub [Issue erstellen](../../issues/new) mit "Bitte um Review, @tamberg".
 * Offene Fragen ausformulieren, was geht nicht, was haben Sie versucht.
 * GitHub mailt mir (@tamberg).
 
