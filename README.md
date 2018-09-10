@@ -2,6 +2,14 @@
 ## Hands-on Lektion 0
 Hands-on zu [Lektion 0](https://github.com/tamberg/fhnw-syspr/blob/master/00/README.md)
 
+### Hands-on, 1h: Raspberry Pi
+* Raspberry Pi Setup via USB zum eigenen Computer.
+* "Hello World" in C auf Raspberry Pi speichern.
+* Den C Source Code mit gcc kompilieren.
+* $ gcc -o hello hello.c
+* $ ./hello
+* Fertig? Bitte Nachbarn helfen.
+
 ## Git
 Auf Ihrem Computer
 * Zu Beginn jeder Lektion wird ein Hands-on Repository Link bekannt gegeben
