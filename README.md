@@ -24,7 +24,7 @@ Die einzelnen Schritte sind in den Slides
 * Lokale Änderungen [committen und pushen](#git).
 * GitHub [Issue erstellen](../../issues/new) mit "Bitte um Review, @tamberg".
 * Offene Fragen ausformulieren, was geht nicht, was haben Sie versucht.
-* GitHub mailt mir (@tamberg).
+* GitHub mailt mir (@tamberg) automatisch, Antwort [ASAP](https://en.wikipedia.org/wiki/ASAP).
 
 ## Tools
 ### Git
