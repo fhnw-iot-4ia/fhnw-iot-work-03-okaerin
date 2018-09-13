@@ -32,7 +32,7 @@ Die einzelnen Schritte sind in den Slides.
 ## Tools
 ### Git
 Auf Ihrem Computer
-* Im Hands-on Repo [Fork für ihre Klasse](../../network/members), in _README.md_, klicken Sie auf den _GitHub Classroom Link_.
+* Im Hands-on Repo [Fork für ihre Klasse](../../network/members), in README.md, klicken Sie auf den _GitHub Classroom Link_.
 * Nachdem Sie das eben geöffnete "Assessment" annehmen, sehen Sie Ihre persönliche, private _REPO_URL_.
 
 Auf dem Raspberry Pi
