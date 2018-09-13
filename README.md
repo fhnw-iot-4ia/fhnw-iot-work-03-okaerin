@@ -33,7 +33,7 @@ Die einzelnen Schritte sind in den Slides.
 ### Git
 Auf Ihrem Computer
 * Im Hands-on Repo [Fork für ihre Klasse](../../network/members), in README.md, klicken Sie auf den _GitHub Classroom Link_.
-* Nachdem Sie das eben geöffnete "Assessment" annehmen, sehen Sie Ihre persönliche, private _REPO_URL_.
+* Sobald Sie das eben geöffnete "Assessment" annehmen, sehen Sie Ihre persönliche, private _REPO_URL_.
 
 Auf dem Raspberry Pi
 * Repository klonen<pre>
