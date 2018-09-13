@@ -37,8 +37,8 @@ Auf Ihrem Computer
 * Diese REPO_URL enthält Ihre Klasse und Ihren GitHub Account USER_NAME, z.B. Klasse _3ia_ und _tamberg_:<br/>
             https://github.com/fhnw-syspr-3ia/fhnw-syspr-work-00-tamberg
 
-Auf dem Raspberry Pi (mit Ihrer _eigenen_ REPO_URL)
-* Repository klonen<pre>
+Auf dem Raspberry Pi
+* Repository klonen, mit Ihrer _eigenen_ REPO_URL<pre>
     $ cd ~
     $ git clone REPO_URL</pre>
 * Neue Datei kreieren<pre>
