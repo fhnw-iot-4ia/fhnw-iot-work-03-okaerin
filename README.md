@@ -34,7 +34,7 @@ Die einzelnen Schritte sind in den Slides.
 Auf Ihrem Computer
 * Im Hands-on Repo [Fork für ihre Klasse](../../network/members), klicken Sie auf den _GitHub Classroom Link_.
 * Nachdem Sie das "Assessment" annehmen, sehen Sie Ihre persönliche, private Repository URL.
-* Die REPO_URL enthält Ihren GitHub Account USER_NAME und Ihre Klasse, z.B. Klasse 3ia und tamberg<br/>
+* Die REPO_URL enthält Ihren Ihre Klasse und ihren GitHub Account USER_NAME, z.B. Klasse _3ia_ und _tamberg_<br/>
             https://github.com/fhnw-syspr-3ia/fhnw-syspr-work-00-tamberg
 
 Auf dem Raspberry Pi
