@@ -36,7 +36,7 @@ Auf Ihrem Computer
 * Nachdem Sie das eben geöffnete "Assessment" annehmen, sehen Sie Ihre persönliche, private _REPO_URL_.
 
 Auf dem Raspberry Pi
-* Repository klonen, mit Ihrer _eigenen_ REPO_URL<pre>
+* Repository klonen<pre>
     $ cd ~
     $ git clone REPO_URL</pre>
 * Neue Datei kreieren<pre>
