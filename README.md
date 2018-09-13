@@ -45,7 +45,7 @@ Auf dem Raspberry Pi
     $ git commit FILE -m "Fixed all bugs"</pre>
 * Änderungen hochladen<pre>
     $ git push</pre>
-Hinweis: Nach dem push sieht auch der Dozent den Inhalt des Repositories.
+(Hinweis: Der Dozent sieht nun den aktuellen Stand des Repositories.)
 
 ### Nano
 Auf dem Raspberry Pi
