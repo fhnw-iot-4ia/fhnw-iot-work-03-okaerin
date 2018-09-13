@@ -33,9 +33,7 @@ Die einzelnen Schritte sind in den Slides.
 ### Git
 Auf Ihrem Computer
 * Im Hands-on Repo [Fork für ihre Klasse](../../network/members), klicken Sie auf den _GitHub Classroom Link_.
-* Nachdem Sie das "Assessment" annehmen, sehen Sie Ihre persönliche, private Repository URL.
-* Diese REPO_URL enthält Ihre Klasse und Ihren GitHub Account USER_NAME, z.B. Klasse _3ia_ und _tamberg_:<br/>
-            https://github.com/fhnw-syspr-3ia/fhnw-syspr-work-00-tamberg
+* Nachdem Sie das eben geöffnete "Assessment" annehmen, sehen Sie Ihre persönliche, private REPO_URL.
 
 Auf dem Raspberry Pi
 * Repository klonen, mit Ihrer _eigenen_ REPO_URL<pre>
