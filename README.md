@@ -18,7 +18,7 @@ Die einzelnen Schritte sind in den Slides.
 Die einzelnen Schritte sind in den Slides.
 * GitHub Account einrichten, falls keiner vorhanden.
 * Git auf Raspberry Pi installieren und konfigurieren.
-* Hands-on Repo erzeugen aus /fhnw-syspr-work-00 (siehe [Git](#git))
+* Hands-on Repo erzeugen aus [/fhnw-syspr-work-00](../../../../fhnw-syspr-work-00) (siehe [Git](#git))
 * D.h. dem Link folgen => Forks => Classroom Link.
 * Dann das Hands-on Repo (auf Raspberry Pi) klonen.
 * File hello.c in Hands-on Repo committen, pushen.
