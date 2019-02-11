@@ -17,7 +17,7 @@ Die einzelnen Schritte sind in den Slides.
 ### b) GitHub Setup, 1h
 Die einzelnen Schritte sind in den Slides.
 * GitHub Account einrichten, falls keiner vorhanden.
-* Git auf Raspberry Pi installieren und konfigurieren.
+* Git (auf Raspberry) Pi installieren und konfigurieren.
 * Hands-on Repo erzeugen aus [/fhnw-syspr-work-00](../../../fhnw-syspr-work-00) (siehe [Git](#git))
 * D.h. dem Link folgen => Forks => Classroom Link.
 * Dann das Hands-on Repo (auf Raspberry Pi) klonen.
