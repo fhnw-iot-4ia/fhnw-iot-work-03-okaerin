@@ -18,16 +18,16 @@ Die einzelnen Schritte sind in den Slides.
 Die einzelnen Schritte sind in den Slides.
 * GitHub Account einrichten, falls keiner vorhanden.
 * Git auf Raspberry Pi installieren und konfigurieren.
-* https://github.com/tamberg/fhnw-syspr klonen.
-* Daneben, [Übungs-Repository aus Mail klonen](#git).
-* Code in Übungs-Repo committen, pushen.
-* Keine Mail bekommen? Bitte melden.
+* Hands-on Repo erzeugen aus /fhnw-syspr-work-00 (siehe [Git](#git))
+* D.h. dem Link folgen => Forks => Classroom Link.
+* Dann das Hands-on Repo (auf Raspberry Pi) klonen.
+* File hello.c in Hands-on Repo committen, pushen.
 
-### Abgabe (optional)
+### Abgabe
 * Lokale Änderungen [committen und pushen](#git).
-* GitHub [Issue erstellen](../../issues/new) mit "Bitte um Review, @tamberg".
+* GitHub [Issue erstellen](../../issues/new) mit "@tamberg".
 * Offene Fragen ausformulieren, was geht nicht, was haben Sie versucht.
-* GitHub mailt mir (@tamberg) automatisch, ich versuche in weniger als 24h zu antworten :)
+* GitHub mailt mir (@tamberg) automatisch, ich versuche in weniger als 24h zu antworten.
 
 ## Tools
 ### Git
