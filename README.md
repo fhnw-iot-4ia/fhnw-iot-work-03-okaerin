@@ -1,5 +1,5 @@
 # IoT Engineering
-## Hands-on lesson 0
+## Hands-on of lesson 0
 For slides and example code, see [lesson 0](../../../fhnw-iot/blob/master/00/README.md)
 
 > *Note: Do not work on this repository right away.*<br/>
