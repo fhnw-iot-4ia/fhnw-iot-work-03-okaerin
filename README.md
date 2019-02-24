@@ -1,33 +1,16 @@
-# System-Programmierung
+# IoT Engineering
 ## Hands-on zu Lektion 0
-Für Slides und Code Beispiele, siehe [Lektion 0](../../../fhnw-syspr/blob/master/00/README.md)
+Für Slides und Code Beispiele, siehe [Lektion 0](../../../fhnw-iot/blob/master/00/README.md)
 
 > *Achtung: Arbeiten Sie nicht direkt auf diesem Repository.*<br/>
 > *[Prüfen Sie die vorhandenen Forks, um das Repository für Ihre Klasse zu finden.](../../network/members)*
 
-### a) Raspberry Pi Setup, 30'
-Die einzelnen Schritte sind in den Slides.
-* Raspberry Pi Setup via USB zum eigenen Computer.
-* "Hello World" in C auf Raspberry Pi speichern.
-* Den C Source Code mit gcc kompilieren.<pre>
-    $ gcc -o hello hello.c
-    $ ./hello</pre>
-* Fertig? Bitte Nachbarn helfen.
-
-### b) GitHub Setup, 30'
-Die einzelnen Schritte sind in den Slides.
-* GitHub Account einrichten, falls keiner vorhanden.
-* Git (auf Raspberry) Pi installieren und konfigurieren.
-* Hands-on Repo erzeugen aus [/fhnw-syspr-work-00](../../../fhnw-syspr-work-00) (siehe [Git](#git))
-* D.h. dem Link folgen => Forks => Classroom Link.
-* Dann das Hands-on Repo (auf Raspberry Pi) klonen.
-* File hello.c in Hands-on Repo committen, pushen.
+### a) X, 5'
+* X.
 
 ### Abgabe
 * Lokale Änderungen [committen und pushen](#git).
 * Review? GitHub [Issue erstellen](../../issues/new), "@tamberg" erwähnen.
-* Offene Fragen ausformulieren, was geht nicht, was haben Sie versucht.
-* GitHub mailt mir (@tamberg) automatisch, ich versuche in weniger als 24h zu antworten.
 
 ## Tools
 ### Git
@@ -36,29 +19,28 @@ Auf Ihrem Computer
 * Sobald Sie das eben geöffnete "Assessment" annehmen, sehen Sie Ihre persönliche, private _REPO_URL_:<pre>
 http://github.com/fhnw-syspr-CLASS/fhnw-syspr-work-00-USER_NAME</pre>
 
-Auf dem Raspberry Pi
-* Repository klonen<pre>
+On your computer or Raspberry Pi
+* Clone the repository<pre>
     $ cd ~
     $ git clone REPO_URL</pre>
-* Neue Datei kreieren<pre>
+* Add a file<pre>
     $ git add FILE</pre>
-* Änderungen committen<pre>
+* Commit changes<pre>
     $ git commit FILE -m "Fixed all bugs"</pre>
-* Änderungen hochladen<pre>
+* Push changes<pre>
     $ git push</pre>
-(Hinweis: Der Dozent sieht nun den aktuellen Stand des Repositories.)
 
 ### Nano
-Auf dem Raspberry Pi
-* Neue oder bestehende Datei öffnen mit $ nano FILE
-* Editieren (Achtung, nano hat kein Undo)
-* Speichern mit `CRTL-X` `Y` `RETURN`
+On the Raspberry Pi
+* Open a new or existing file with $ nano FILE
+* Edit (Note that nano has no undo)
+* Save and close with `CRTL-X` `Y` `RETURN`
 
 ### SSH
-Auf Ihrem Computer
-* Terminal öffnen (Mac) oder `WINDOWS` `R` cmd `RETURN` (Windows)
-* SSH Session starten mit<pre>
+On your computer
+* Open Terminal (Mac) or `WINDOWS` `R` cmd `RETURN` (Windows)
+* Start an SSH session with<pre>
     $ ssh pi@raspberrypi.local</pre>
 
 ## Support
-- [FHNW Syspr Slack](https://fhnw-syspr.slack.com/)
+- [FHNW IoT Engineering Slack](https://fhnw-iot.slack.com/)
