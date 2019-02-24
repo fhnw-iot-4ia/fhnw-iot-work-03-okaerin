@@ -1,6 +1,6 @@
 # IoT Engineering
 ## Hands-on zu Lektion 0
-Für Slides und Code Beispiele, siehe [Lektion 0](../../../fhnw-iot/blob/master/00/README.md)
+For slides and example code, see [Lesson 0](../../../fhnw-iot/blob/master/00/README.md)
 
 > *Note: Do not work on this repository right away.*<br/>
 > *[Check existing Forks, to find the specific repository for your class.](../../network/members)*
@@ -8,15 +8,15 @@ Für Slides und Code Beispiele, siehe [Lektion 0](../../../fhnw-iot/blob/master/
 ### a) X, 5'
 * X.
 
-### Abgabe
-* Lokale Änderungen [committen und pushen](#git).
-* Review? GitHub [Issue erstellen](../../issues/new), "@tamberg" erwähnen.
+### Submitting results
+* [Commit and push](#git) local changes.
+* Review? [Create an issue](../../issues/new) on GitHub, mention "@tamberg".
 
 ## Tools
 ### Git
-Auf Ihrem Computer
-* Im Hands-on Repo [Fork für ihre Klasse](../../network/members), in README.md, klicken Sie auf den _GitHub Classroom Link_.
-* Sobald Sie das eben geöffnete "Assessment" annehmen, sehen Sie Ihre persönliche, private _REPO_URL_:<pre>
+On your computer
+* In the hands-on repository [fork for your class](../../network/members), in README.md, click the _GitHub Classroom link_.
+* Once you accept the "Assessment", you'll get a personal, private repository URL for your _USER_NAME_:<pre>
 http://github.com/fhnw-syspr-CLASS/fhnw-syspr-work-00-USER_NAME</pre>
 
 On your computer or Raspberry Pi
