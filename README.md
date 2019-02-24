@@ -2,8 +2,8 @@
 ## Hands-on zu Lektion 0
 Für Slides und Code Beispiele, siehe [Lektion 0](../../../fhnw-iot/blob/master/00/README.md)
 
-> *Achtung: Arbeiten Sie nicht direkt auf diesem Repository.*<br/>
-> *[Prüfen Sie die vorhandenen Forks, um das Repository für Ihre Klasse zu finden.](../../network/members)*
+> *Note: Do not work on this repository right away.*<br/>
+> *[Check existing Forks, to find the specific repository for your class.](../../network/members)*
 
 ### a) X, 5'
 * X.
