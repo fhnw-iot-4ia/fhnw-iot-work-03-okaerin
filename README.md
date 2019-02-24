@@ -9,7 +9,7 @@ For slides and example code, see [lesson 0](../../../fhnw-iot/blob/master/00/REA
 * X.
 
 ### Submitting results
-* [Commit and push](#git) local changes.
+* [Commit and push](#git) local changes to your repository.
 * Review? [Create an issue](../../issues/new) on GitHub, mention "@tamberg".
 
 ## Tools
