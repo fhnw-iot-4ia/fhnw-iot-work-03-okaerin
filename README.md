@@ -20,14 +20,14 @@ On your computer
 http://github.com/fhnw-syspr-CLASS/fhnw-syspr-work-00-USER_NAME</pre>
 
 On your computer or Raspberry Pi
-* Cloning the repository<pre>
+* Clone the repository<pre>
     $ cd ~
     $ git clone REPO_URL</pre>
-* Adding a file<pre>
+* Add a file<pre>
     $ git add FILE</pre>
-* Commiting changes<pre>
+* Commit changes<pre>
     $ git commit FILE -m "Fixed all bugs"</pre>
-* Pushing changes<pre>
+* Push changes<pre>
     $ git push</pre>
 
 ### Nano
