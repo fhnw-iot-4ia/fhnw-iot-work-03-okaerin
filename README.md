@@ -43,4 +43,4 @@ On your computer
     $ ssh pi@raspberrypi.local</pre>
 
 ## Support
-- [FHNW IoT Engineering Slack](https://fhnw-iot.slack.com/)
+- [FHNW IoT Slack](https://fhnw-iot.slack.com/)
