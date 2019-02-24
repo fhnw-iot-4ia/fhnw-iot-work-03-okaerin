@@ -30,17 +30,8 @@ On your computer or Raspberry Pi
 * Push changes<pre>
     $ git push</pre>
 
-### Nano
-On the Raspberry Pi
-* Open a new or existing file with `$ nano FILE`
-* Edit the file (Note that nano has no undo.)
-* Save and close with `CRTL-X` `Y` `RETURN`
-
-### SSH
-On your computer
-* Open a terminal (Mac) or `WINDOWS` `R` cmd `RETURN` (Windows)
-* Start an SSH session with<pre>
-    $ ssh pi@raspberrypi.local</pre>
+### Wiki
+- [IoT Engineering Wiki](https://github.com/tamberg/fhnw-iot/wiki)
 
 ## Support
 - [FHNW IoT Slack](https://fhnw-iot.slack.com/)
