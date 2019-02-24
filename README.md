@@ -30,7 +30,7 @@ On your computer or Raspberry Pi
 * Push changes<pre>
     $ git push</pre>
 
-### Wiki
+## Wiki
 - [IoT Engineering Wiki](https://github.com/tamberg/fhnw-iot/wiki)
 
 ## Support
