@@ -6,7 +6,7 @@ For slides and example code, see [lesson 0](../../../fhnw-iot/blob/master/00/REA
 > *[Check existing forks to find the specific repository for your class.](../../network/members)*
 
 ### a) Git and GitHub, 5'
-* Find the _Classroom_ link to fork this repository.
+* Check the forks of this repository to find the _Classroom_ link.
 * Add a new text file, commit and push to submit.
 * See [Git](#git) and [Submitting results](#submitting-results) below.
 
