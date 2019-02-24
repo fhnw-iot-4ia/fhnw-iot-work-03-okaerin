@@ -3,7 +3,7 @@
 For slides and example code, see [Lesson 0](../../../fhnw-iot/blob/master/00/README.md)
 
 > *Note: Do not work on this repository right away.*<br/>
-> *[Check existing Forks, to find the specific repository for your class.](../../network/members)*
+> *[Check existing forks to find the specific repository for your class.](../../network/members)*
 
 ### a) X, 5'
 * X.
