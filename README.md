@@ -34,4 +34,4 @@ On your computer or Raspberry Pi
 - [IoT Engineering Wiki](https://github.com/tamberg/fhnw-iot/wiki)
 
 ## Support
-- [FHNW IoT Slack](https://fhnw-iot.slack.com/)
+- [IoT Engineering Slack](https://fhnw-iot.slack.com/)
