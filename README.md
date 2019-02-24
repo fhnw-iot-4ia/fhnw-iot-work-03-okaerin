@@ -38,7 +38,7 @@ On the Raspberry Pi
 
 ### SSH
 On your computer
-* Open Terminal (Mac) or `WINDOWS` `R` cmd `RETURN` (Windows)
+* Open a terminal (Mac) or `WINDOWS` `R` cmd `RETURN` (Windows)
 * Start an SSH session with<pre>
     $ ssh pi@raspberrypi.local</pre>
 
