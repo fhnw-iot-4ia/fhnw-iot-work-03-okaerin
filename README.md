@@ -33,7 +33,7 @@ On your computer or Raspberry Pi
 ### Nano
 On the Raspberry Pi
 * Open a new or existing file with $ nano FILE
-* Edit text (Note that nano has no undo)
+* Edit the file (Note that nano has no undo.)
 * Save and close with `CRTL-X` `Y` `RETURN`
 
 ### SSH
