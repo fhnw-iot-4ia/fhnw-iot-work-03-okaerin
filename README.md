@@ -1,6 +1,6 @@
 # IoT Engineering
-## Hands-on zu Lektion 0
-For slides and example code, see [Lesson 0](../../../fhnw-iot/blob/master/00/README.md)
+## Hands-on lesson 0
+For slides and example code, see [lesson 0](../../../fhnw-iot/blob/master/00/README.md)
 
 > *Note: Do not work on this repository right away.*<br/>
 > *[Check existing forks to find the specific repository for your class.](../../network/members)*
