@@ -17,8 +17,12 @@ For slides and example code, see [lesson 3](../../../fhnw-iot/blob/master/03/REA
 * Arduino > Examples > ESP8266WiFi > [NTPClient](https://github.com/esp8266/Arduino/blob/master/libraries/ESP8266WiFi/examples/NTPClient/NTPClient.ino).
 * Bonus: Read the code of this [low memory version](https://playground.arduino.cc/Code/NTPclient).
 
-### c) Wi-Fi, 15'
-* 
+### c) ESP8266 TLS clients, 15'
+* Build, run and compare the following TLS clients:
+* [Secure Wi-Fi client](https://github.com/tamberg/fhnw-iot/blob/master/03/Arduino/ESP8266_WiFiClientSecure/ESP8266_WiFiClientSecure.ino), with [fingerprint](https://github.com/tamberg/fhnw-iot/blob/master/03/Arduino/ESP8266_WiFiClientSecureFingerprint/ESP8266_WiFiClientSecureFingerprint.ino), with [CA check](https://github.com/tamberg/fhnw-iot/blob/master/03/Arduino/ESP8266_WiFiClientSecureCaCert/ESP8266_WiFiClientSecureCaCert.ino).
+* Locate/download the CA certificate in your browser.
+* Locate the SHA-1 fingerprint of the host certificate.
+* Bonus: Try to change the host to another Website.
 
 ### d) Wi-Fi, 15'
 * 
