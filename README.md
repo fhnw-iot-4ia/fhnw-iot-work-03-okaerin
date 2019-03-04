@@ -49,7 +49,7 @@ https://dweet.io/get/dweets/for/THING_NAME
 
 ### g) Homework, max. 3h
 * Implement or finish the temp. sensor you designed.
-* Post the IoT platform data feed URL* to the Slack.
+* Post the IoT platform data feed URL to the Slack.
 * Commit the Arduino code to the hands-on repo.
 * Measure the temperature for at least 24 hours.
 
