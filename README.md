@@ -43,10 +43,9 @@ https://dweet.io/get/dweets/for/THING_NAME
 * Design a connected temperature sensor as specified:
 * Gets current time and date in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) UTC format.
 * Gets temperature & humidity from a [DHT11 sensor](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#temperature--humidity-sensor-dht11).
-* Connects<sup>*</sup> to api.thingspeak.com port 443 with TLS.
-* Posts sensor values, timestamp every 30 seconds.
-
+* Connects<sup>*</sup> to api.thingspeak.com port 443 with TLS.<br/>
 <sup>*</sup>) And robustly reconnects, if disconnected.
+* Posts sensor values, timestamp every 30 seconds.
 
 ### g) Homework, max. 3h
 * Implement or finish the temp. sensor you designed.
