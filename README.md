@@ -5,8 +5,23 @@ For slides and example code, see [lesson 3](../../../fhnw-iot/blob/master/03/REA
 > *Note: Do not work on this repository right away.*<br/>
 > *[Check existing forks to find the specific repository for your class.](../../network/members)*
 
-### a) X, 0'
-* X.
+### a) Wi-Fi, 15'
+* Build and run the previous Wi-Fi related examples.
+* Use the _.ino_ link on each page to find the source.
+* The examples are in the course repository.
+* Make sure to use the ESP8266 board
+
+### b) ESP8266 NTP clients, 15'
+* Build, run and compare the following NTP clients:
+* The [Web-based time client](https://github.com/tamberg/fhnw-iot/blob/master/03/Arduino/ESP8266_WiFiTimeClient/ESP8266_WiFiTimeClient.ino) and [built-in NTP client](https://github.com/tamberg/fhnw-iot/blob/master/03/Arduino/ESP8266_WiFiNtpClient/ESP8266_WiFiNtpClient.ino).
+* Arduino > Examples > ESP8266WiFi > [NTPClient](https://github.com/esp8266/Arduino/blob/master/libraries/ESP8266WiFi/examples/NTPClient/NTPClient.ino).
+* Bonus: Read the code of this [low memory version](https://playground.arduino.cc/Code/NTPclient).
+
+### c) Wi-Fi, 15'
+* 
+
+### d) Wi-Fi, 15'
+* 
 
 ### Submitting results
 * [Commit and push](#git) local changes to your repository.
