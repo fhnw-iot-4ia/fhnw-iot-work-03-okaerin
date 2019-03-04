@@ -27,9 +27,9 @@ For slides and example code, see [lesson 3](../../../fhnw-iot/blob/master/03/REA
 ### d) Dweet.io, 15'
 * Dweet.io works without an account, data is public.
 * Use your ESP8266 MAC address as THING_NAME.
-* On the ESP8266, read the analog pin A0, then POST
+* On the ESP8266, read the analog pin A0, then POST<br/>
 its value to /dweet/for/THING_NAME?a0=value
-* Use cURL or your browser to read stored data from
+* Use cURL or your browser to read stored data from<br/>
 https://dweet.io/get/dweets/for/THING_NAME
 
 ### Submitting results
