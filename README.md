@@ -39,6 +39,14 @@ https://dweet.io/get/dweets/for/THING_NAME
 * Try the example code File > Examples > ThingSpeak > ESP8266 > WriteMultipleFields.ino
 * Make sure values arrive in your ThingSpeak channel.
 
+### f) Temperature sensor
+* Design a connected temperature sensor as specified:
+* Gets current time and date in ISO 8601 UTC format.
+* Gets temperature & humidity from a DHT11 sensor.
+* Connects* to api.thingspeak.com port 443 with TLS.
+* Posts sensor values, timestamp every 30 seconds.
+<sup>*</sup>) And robustly reconnects, if disconnected.
+
 ### Submitting results
 * [Commit and push](#git) local changes to your repository.
 * Want a review? [Create an issue](../../issues/new), mention me (@tamberg).
