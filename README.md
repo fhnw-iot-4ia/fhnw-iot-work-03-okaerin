@@ -32,7 +32,7 @@ its value to /dweet/for/THING_NAME?a0=value
 * Use cURL or your browser to read stored data from<br/>
 https://dweet.io/get/dweets/for/THING_NAME
 
-### e) 
+### e) ThingSpeak, 15'
 * [Get an account](https://thingspeak.com/users/sign_up) to create channels and get API keys.
 * Add the Arduino library with Sketch > Include
 * Library > Manage Libraries... > ThingSpeak > Install
