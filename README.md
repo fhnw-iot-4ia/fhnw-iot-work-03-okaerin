@@ -39,7 +39,7 @@ https://dweet.io/get/dweets/for/THING_NAME
 * Try the example code File > Examples > ThingSpeak > ESP8266 > WriteMultipleFields.ino
 * Make sure values arrive in your ThingSpeak channel.
 
-### f) Temperature sensor, 15' + homework
+### f) Temperature sensor, 15'
 * Design a connected temperature sensor as specified:
 * Gets current time and date in ISO 8601 UTC format.
 * Gets temperature & humidity from a DHT11 sensor.
@@ -47,6 +47,12 @@ https://dweet.io/get/dweets/for/THING_NAME
 * Posts sensor values, timestamp every 30 seconds.
 
 <sup>*</sup>) And robustly reconnects, if disconnected.
+
+### g) Homework, max. 3h
+* Implement or finish the temp. sensor you designed.
+* Post the IoT platform data feed URL* to the Slack.
+* Commit the Arduino code to the hands-on repo.
+* Measure the temperature for at least 24 hours.
 
 ### Submitting results
 * [Commit and push](#git) local changes to your repository.
