@@ -32,6 +32,14 @@ its value to /dweet/for/THING_NAME?a0=value
 * Use cURL or your browser to read stored data from<br/>
 https://dweet.io/get/dweets/for/THING_NAME
 
+### e) 
+* [Get an account](https://thingspeak.com/users/sign_up) to create channels and get API keys.
+* Add the Arduino library with Sketch > Include
+* Library > Manage Libraries... > ThingSpeak > Install
+* Try the example code File > Examples > ThingSpeak
+> ESP8266 > WriteMultipleFields.ino
+* Make sure values arrive in your ThingSpeak channel.
+
 ### Submitting results
 * [Commit and push](#git) local changes to your repository.
 * Want a review? [Create an issue](../../issues/new), mention me (@tamberg).
