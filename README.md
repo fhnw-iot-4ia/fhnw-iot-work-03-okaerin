@@ -3,7 +3,7 @@
 For slides and example code, see [lesson 3](../../../fhnw-iot/blob/master/03/README.md)
 
 > *Note: Do not work on this repository right away.*<br/>
-> *[Check existing forks to find the specific repository for your class.](../../network/members)*
+> *[Create your personal copy by clicking this GitHub Classroom link](https://classroom.github.com/a/XSBpidWC).*
 
 ### a) ESP8266 Wi-Fi, 15'
 * Build and run the previous Wi-Fi related examples.
