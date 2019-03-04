@@ -5,7 +5,7 @@ For slides and example code, see [lesson 3](../../../fhnw-iot/blob/master/03/REA
 > *Note: Do not work on this repository right away.*<br/>
 > *[Check existing forks to find the specific repository for your class.](../../network/members)*
 
-### a) Wi-Fi, 15'
+### a) ESP8266 Wi-Fi, 15'
 * Build and run the previous Wi-Fi related examples.
 * Use the _.ino_ link on each page to find the source.
 * The examples are in the course repository.
