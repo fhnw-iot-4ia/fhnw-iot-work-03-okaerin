@@ -24,8 +24,13 @@ For slides and example code, see [lesson 3](../../../fhnw-iot/blob/master/03/REA
 * Locate the SHA-1 fingerprint of the host certificate.
 * Bonus: Try to change the host to another Website.
 
-### d) Wi-Fi, 15'
-* 
+### d) Dweet.io, 15'
+* Dweet.io works without an account, data is public.
+* Use your ESP8266 MAC address as THING_NAME.
+* On the ESP8266, read the analog pin A0, then POST
+its value to /dweet/for/THING_NAME?a0=value
+* Use cURL or your browser to read stored data from
+https://dweet.io/get/dweets/for/THING_NAME
 
 ### Submitting results
 * [Commit and push](#git) local changes to your repository.
