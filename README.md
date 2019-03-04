@@ -36,8 +36,7 @@ https://dweet.io/get/dweets/for/THING_NAME
 * [Get an account](https://thingspeak.com/users/sign_up) to create channels and get API keys.
 * Add the Arduino library with Sketch > Include
 * Library > Manage Libraries... > ThingSpeak > Install
-* Try the example code File > Examples > ThingSpeak
-> ESP8266 > WriteMultipleFields.ino
+* Try the example code File > Examples > ThingSpeak > ESP8266 > WriteMultipleFields.ino
 * Make sure values arrive in your ThingSpeak channel.
 
 ### Submitting results
