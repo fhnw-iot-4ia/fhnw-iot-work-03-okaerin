@@ -39,12 +39,18 @@ const char* create_request_post(const char* tuples){
 
   return request_body;
 }
+void setupPins(){
+  pinMode(A0,INPUT);
+}
 void setup() {
   Serial.begin(115200);
   // setup uri string for requests
   Serial.println("Setup uri for requests");
   create_uri();
   Serial.println(uri_str);
+  //setup pins
+  Serial.println("Setup pins");
+  setupPins();
   //connect to network
   Serial.print("\nConnecting to network ");
   Serial.println(ssid);
@@ -90,8 +96,10 @@ void setup() {
       Serial.print('\n');    
       Serial.println("Sending HTTP request");
       Serial.println("Request:");
-      Serial.print(create_request_post("somenewkey=value"));
-      client.print(create_request_post("somenewkey=value"));
+      char buf[125];
+      snprintf(buf,125,"a0=%d",analogRead(A0));
+      Serial.print(create_request_post(buf));
+      client.print(create_request_post(buf));
   
       Serial.println("Reading HTTP response\n");
       while (client.connected() || client.available()) {
