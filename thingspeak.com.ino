@@ -1,3 +1,5 @@
+#define DHTTYPE DHT11 // DHT 11
+#include <DHT.h>
 #include <ESP8266WiFi.h>
 #include <WiFiClientSecure.h>
 #include <time.h>
@@ -6,13 +8,14 @@
 extern const unsigned char caCert[] PROGMEM;
 extern const unsigned int caCertLen;
 
+//Networking
 const char *ssid = "MY_SSID"; // TODO
 const char *password = "MY_PASSWORD"; // TODO
 
 const char *api_key="J4T4XOGET2K7UY9K";//write key
 //GET https://api.thingspeak.com/update?api_key=J4T4XOGET2K7UY9K&field1=0
 const char *host = "api.thingspeak.com";
-const char *path = "update";
+const char *path = "/update";
 #define MAX_URI 256
 char uri_str[MAX_URI];//used to form the uri
 const int port = 443;
@@ -22,14 +25,32 @@ char request_body[MAX_REQUEST];
 char post_body[MAX_POST];
 #define USE_CACERT
 
+//sensors
+#define DHTCOUNT 20 // experimental setting
+#define DHTPIN 2     // what pin we're connected to
+DHT dht(DHTPIN, DHTTYPE,DHTCOUNT);
+
 WiFiClientSecure client; // use TLS
 
 void create_uri(){
-  snprintf(uri_str,MAX_URI,"%s/%s",path,WiFi.macAddress().c_str());
+  snprintf(uri_str,MAX_URI,"%s",path);
 }
 void setup_sensor(){
-
-  
+    dht.begin();
+}
+bool read_climate(float* humidity,float* temperature){
+  bool ret=true;
+  if(humidity){
+    *humidity = dht.readHumidity();
+  }
+  if(temperature){
+    *temperature = dht.readTemperature();
+  }
+  if (!humidity||!temperature||isnan(*temperature) || isnan(*humidity)) {
+      Serial.println("Failed to read from DHT");
+      ret=false;
+  }
+  return ret;
 }
 const char* create_request_post(const char* tuples){
   snprintf(request_body,MAX_REQUEST,"POST %s HTTP/1.1\r\n"
@@ -54,8 +75,8 @@ void sync_time(){
     delay(500);
   }
 }
-char* timestamp(){
-  char stamp[125];
+const char* timestamp(){
+  static char stamp[125];
   time_t local_time;
   tm* gm_time;
   local_time=time(NULL);
@@ -64,7 +85,7 @@ char* timestamp(){
   snprintf(stamp,125,"%d-%02d-%02dT%02d:%02d:%02dZ",gm_time->tm_year+1900/*years since 1900*/, gm_time->tm_mon+1/*months since january*/, gm_time->tm_mday, gm_time->tm_hour, gm_time->tm_min, gm_time->tm_sec);//YYYY-MM-DDTHH:mm:ssZ
   return stamp;
 }
-void send_request(){
+void send_request(float* humidity,float* temperature){
   Serial.print("Connecting to host ");
   Serial.print(host);
   Serial.print(':');
@@ -76,7 +97,9 @@ void send_request(){
       Serial.println("Sending HTTP request");
       Serial.println("Request:");
       //GET https://api.thingspeak.com/update?api_key=J4T4XOGET2K7UY9K&field1=0
-      snprintf(post_body,MAX_POST,"api_key=%s",api_key);
+      Serial.print("timestamp: ");
+      Serial.println(timestamp());
+      snprintf(post_body,MAX_POST,"api_key=%s&field3=%s&field1=%.2f&field2=%.2f",api_key,timestamp(),*temperature,*humidity);
       Serial.print(create_request_post(post_body));
       client.print(create_request_post(post_body));
   
@@ -131,6 +154,10 @@ void loop() {
     Serial.println("lost wifi connection");
     connect_wifi();
   }
-  Serial.println(timestamp());
-//  send_request();
+  //collect data
+  float humidity,temperature;
+  if(read_climate(&humidity,&temperature)){
+    send_request(&humidity,&temperature);
+  }
+  delay(30000);
 }
