@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 read -p "host:" srv
-#optain public key in binary form
+#obtain public key in binary form
 openssl s_client -showcerts -verify 5 -connect $srv:443 < /dev/null 2>/dev/null| openssl x509 -outform der > $srv.crt
 #convert to c include
 xxd -i < $srv.crt | sed -r '1 s/^/const unsigned char caCert[] PROGMEM = {/m' \
